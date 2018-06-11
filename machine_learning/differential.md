@@ -21,9 +21,8 @@ y = ax + b aが傾き、bが切片でした。
 
 ```a = f(x2) - f(x1) / (x2 - x1) ```   
 
-```math
-\frac{f(x2)-f(x1)}{x2-x1}
-```
+<img src="https://latex.codecogs.com/gif.latex?\frac{f(x2)-f(x1)}{x2-x1}" title="\frac{f(x2)-f(x1)}{x2-x1}" />
+
 ## 微分（導関数）を求める２
 
 極限：lim
