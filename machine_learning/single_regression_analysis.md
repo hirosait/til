@@ -58,12 +58,12 @@ yとxはすでにわかっているデータからの値( 家賃と広さ)
 センタリングの計算   
 
 |<img src="https://latex.codecogs.com/gif.latex?x" /> | <img src="https://latex.codecogs.com/gif.latex?\overline{x}" /> | <img src="https://latex.codecogs.com/gif.latex?x_c" /> |
-|---|----|----|
+|----|----|----|
 | 1       | 3        | -2         |
 | 3       | 3        | 0         |
 | 5     | 3      | 2       |
 
 
 （前提）データは中心化済みであれば、  
-<img src="https://latex.codecogs.com/gif.latex?\widehat{y}=ax" />   
-aはパラメータ、cは記載省略することが多い
+<img src="https://latex.codecogs.com/gif.latex?\widehat{y}=ax" />となり、切片bを省略できる。   
+ちなみにaはパラメータ、cは記載省略することが多い
