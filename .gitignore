@@ -109,7 +109,7 @@ bin/
 # pycharm 
 *.xml
 
-.idea/todayilearned.iml
+
 
 !/codeStyleSettings.xml
 !/copyright/*.xml
