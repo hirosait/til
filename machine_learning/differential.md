@@ -34,15 +34,18 @@ x->0 は**条件**、3xは計算の**対象**
 x = 0なので、対象は3 x 0 = 0  
 
 例題：<img src="https://latex.codecogs.com/gif.latex?\lim&space;_{h\rightarrow&space;0}(2x&plus;h)" title="\lim _{h\rightarrow 0}(2x+h)" />  
+
 答え：2x + 0 = 2x  
 
+
 問題： 1つの点を通る傾きを求めなさい  
-答え：
+
+答え：  
 <img src="https://latex.codecogs.com/gif.latex?\lim&space;_{h\rightarrow&space;0}\frac{f(x&plus;h)&space;-&space;f(x)}{(x&plus;h)-x}" title="\lim _{h\rightarrow 0}\frac{f(x+h) - f(x)}{(x+h)-x}" />  
 <img src="https://latex.codecogs.com/gif.latex?\lim&space;_{h\rightarrow&space;0}\frac{f(x&plus;h)&space;-&space;f(x)}{h}" title="\lim _{h\rightarrow 0}\frac{f(x+h) - f(x)}{h}" />
 
 解説：２点ではなく、１点なので、増加量が取れない場合、仮想の点を作る。  
-x+h, f(x+h)  hが縦横の増加量  
+仮想点の横：x+h, 仮想点の高さ：f(x+h)(hが縦横の増加量)  
 つまりこの仮想点を元の点に近づける（増加したhを限りなく0に近づける）ことで、２点を通る線から１点を通る線になる。  
 
 ### 導関数のまとめ
