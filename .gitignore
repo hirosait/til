@@ -109,11 +109,7 @@ bin/
 # pycharm 
 *.xml
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> aa46e7e4777a3f83fb86a624b4066313af3aa3a7
 !/codeStyleSettings.xml
 !/copyright/*.xml
 !/fileColors.xml
