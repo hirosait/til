@@ -63,13 +63,13 @@ f'(x)の'はダッシュと読む。 **ダッシュは微分を表す**。
 <img src="https://latex.codecogs.com/gif.latex?()'=\frac{d}{dx}()" title="()'=\frac{d}{dx}()" />  これも同じ意味
 
 例題：  
-(3)の式を微分の公式から導出する  
+(3)の式を導出する  
 
  <img src="https://latex.codecogs.com/gif.latex?(x^2)'=2x" title="(x^2)'=2x" />  
 
 <img src="https://latex.codecogs.com/gif.latex?(x^2)" />を微分すると、本当に2xになるのだろうか  
 
-微分の公式を使う：  
+導関数の公式を使う：  
 <img src="https://latex.codecogs.com/gif.latex?f'(x)&space;=&space;\lim&space;_{h\rightarrow&space;0}\frac{f(x&plus;h)&space;-&space;f(x)}{h}" title="f'(x) = \lim _{h\rightarrow 0}\frac{f(x+h) - f(x)}{h}" />  
 
 <img src="https://latex.codecogs.com/gif.latex?f(x)=x^2" />
@@ -86,3 +86,17 @@ f'(x)の'はダッシュと読む。 **ダッシュは微分を表す**。
 
 <img src="https://latex.codecogs.com/gif.latex?=2x" />
 
+### 練習
+微分の公式に分解して、答えを求める  
+
+(1) (3x^2)' = 3x(x^2)' 関係ないのは外出OK  
+            = 3 x 2x = 6x  
+(2) (4x + 3)' = (4x)' + (3)'  足し算は微分を分けてもOK  
+              = 4 x (x)' + 3 x (1)'  
+              = 4 x 1 + 3 x 0  
+              + 4  
+(3) (3x^2 + 4x + 7)' = 3 x (x^2)' + 4 x (x)' + 7 x (1)'   
+                     = 3 x 2x + 4 x 1 + 7 x 0  
+                     = 6x + 4 + 0  
+                     = 6x + 4  
+                     
