@@ -1,9 +1,9 @@
 # 微分
 
-- 微分は「何」が求まるのか？
+- まず微分では「何」が求まるのか？
 	- **「接線の傾き」** が求まる。
-	グラフ：y = ax^2  
-	接線：y = ax + b   
+	グラフ：<img src="https://latex.codecogs.com/gif.latex?y=ax+b^2" />  
+	接線：<img src="https://latex.codecogs.com/gif.latex?y=ax+b" />   
 	a は傾き、bは切片  
 	右肩上がりの接線の傾きは正の数値になる。これが微分で求まる。  例：+3  
 	ちなみに右肩下がりの接線の傾きは、負の数値になる。例：-2
@@ -34,15 +34,18 @@ x->0 は**条件**、3xは計算の**対象**
 x = 0なので、対象は3 x 0 = 0  
 
 例題：<img src="https://latex.codecogs.com/gif.latex?\lim&space;_{h\rightarrow&space;0}(2x&plus;h)" title="\lim _{h\rightarrow 0}(2x+h)" />  
+
 答え：2x + 0 = 2x  
 
+
 問題： 1つの点を通る傾きを求めなさい  
-答え：
+
+答え：  
 <img src="https://latex.codecogs.com/gif.latex?\lim&space;_{h\rightarrow&space;0}\frac{f(x&plus;h)&space;-&space;f(x)}{(x&plus;h)-x}" title="\lim _{h\rightarrow 0}\frac{f(x+h) - f(x)}{(x+h)-x}" />  
 <img src="https://latex.codecogs.com/gif.latex?\lim&space;_{h\rightarrow&space;0}\frac{f(x&plus;h)&space;-&space;f(x)}{h}" title="\lim _{h\rightarrow 0}\frac{f(x+h) - f(x)}{h}" />
 
 解説：２点ではなく、１点なので、増加量が取れない場合、仮想の点を作る。  
-x+h, f(x+h)  hが縦横の増加量  
+仮想点の横：x+h, 仮想点の高さ：f(x+h)(hが縦横の増加量)  
 つまりこの仮想点を元の点に近づける（増加したhを限りなく0に近づける）ことで、２点を通る線から１点を通る線になる。  
 
 ### 導関数のまとめ
@@ -86,14 +89,17 @@ f'(x)の'はダッシュと読む。 **ダッシュは微分を表す**。
 ### 練習
 微分の公式に分解して、答えを求める  
 
-(1) (3x^2)' = 3x(x^2)' 関係ないのは外出OK  
-            = 3 x 2x = 6x  
-(2) (4x + 3)' = (4x)' + (3)'  足し算は微分を分けてもOK  
-              = 4 x (x)' + 3 x (1)'  
-              = 4 x 1 + 3 x 0  
-              + 4  
-(3) (3x^2 + 4x + 7)' = 3 x (x^2)' + 4 x (x)' + 7 x (1)'   
-                     = 3 x 2x + 4 x 1 + 7 x 0  
-                     = 6x + 4 + 0  
-                     = 6x + 4  
+(1) <img src="https://latex.codecogs.com/gif.latex?(3x^2)'=3*(x^2)'" /> 関係ないのは外出OK  
+<img src="https://latex.codecogs.com/gif.latex?=3*2x=6x" />  
+
+(2) <img src="https://latex.codecogs.com/gif.latex?(4x+3)'=(4x)'+(3)'" />  足し算は微分を分けてもOK  
+<img src="https://latex.codecogs.com/gif.latex?=4*(x)'+3*(1)'" />  
+<img src="https://latex.codecogs.com/gif.latex?=4*1+3*0" />  
+<img src="https://latex.codecogs.com/gif.latex?=4" />  
+  
+(3) <img src="https://latex.codecogs.com/gif.latex?(3x^2+4x+7)'=3*(x^2)'+4*(x)'+7*(1)'" />   
+<img src="https://latex.codecogs.com/gif.latex?=3*2x+4*1+7*0" />    
+<img src="https://latex.codecogs.com/gif.latex?=6x+4+0" />    
+<img src="https://latex.codecogs.com/gif.latex?=6x+4" />    
+
                      

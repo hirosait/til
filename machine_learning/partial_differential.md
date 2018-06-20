@@ -1,6 +1,6 @@
 # 偏微分
 
-多変数の微分。つまりxの数が増えていく。  
+偏微分とは多変数の微分のこと。つまりxの数が増えていく。  
 例： <img src="https://latex.codecogs.com/gif.latex?y" />   が家賃、<img src="https://latex.codecogs.com/gif.latex?x_1" /> が広さ、<img src="https://latex.codecogs.com/gif.latex?x_2" />が駅からの距離、<img src="https://latex.codecogs.com/gif.latex?x_3" />が治安等々
 <br />
 <br />
